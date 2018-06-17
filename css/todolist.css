@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+header,section,footer{
+  height:5rem;
+  width:100%;
+  margin-left: 0%;
+  border: 1px solid darkgrey;
+  border-radius: 0px, 4px, 0px, 4px;
+  background: navy;
+}
+section{
+  border-radius: 0;
+  background: lightgrey;
+  height: 40rem;
+  width: 100%;
+}
+header{
+  margin-top: 0px;
+  border-radius: 4px 4px 0px 0px;
+  width: 100%;
+}
+header h1{
+  color: white;
+  float: left;
+}
+footer{
+  border-radius: 0px 0px 4px 4px;
+  width: 100%;
+}
+input{
+  width: 45%;
+  height: 60px;
+  font-size: 45px;
+  float: left;
+  margin-left: 15%;
+}
+ul li {
+  font-size: : 30px;
+}
+
+button{
+  height: 60px;
+  color: blue;
+  font-size: 90%;
+  float: left;
+}
+
+
+.complete{
+  color:blue;
+}
+.edit{
+
+}
+.remove{
+
+}
